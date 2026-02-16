@@ -12,7 +12,7 @@ from tomllib import load as toml_load
 
 # project info
 author = "Geoff Boeing"
-copyright = "2016-2025, Geoff Boeing"  # noqa: A001
+copyright = "2016-2026, Geoff Boeing"  # noqa: A001
 project = "OSMnx"
 
 # go up two levels from current working dir (/docs/source) to package root
@@ -58,7 +58,7 @@ extensions = ["sphinx.ext.autodoc", "sphinx.ext.napoleon", "sphinx_autodoc_typeh
 html_static_path: list[str] = []
 html_theme = "furo"
 language = "en"
-needs_sphinx = "7"  # match version from pyproject.toml optional-dependencies
+needs_sphinx = "9"  # match version from pyproject.toml and requirements-docs.txt
 root_doc = "index"
 source_suffix = ".rst"
 templates_path: list[str] = []
