@@ -107,8 +107,8 @@ You can easily project your graph to different coordinate reference systems usin
 
 Using the ``io`` module, you can save your graph to disk as a GraphML file (to load into other network analysis software), a GeoPackage (to load into other GIS software), or an OSM XML file. Use the GraphML format whenever saving a graph for later work with OSMnx. Read more about the :ref:`io <osmnx-io-module>` module in the User Reference.
 
-Network Measures
-^^^^^^^^^^^^^^^^
+Network Statistics
+^^^^^^^^^^^^^^^^^^
 
 You can use the ``stats`` module to calculate a variety of geometric and topological measures as well as street network bearing and orientation statistics. These measures define streets as the edges in an undirected representation of the graph to prevent double-counting bidirectional edges of a two-way street. You can easily generate common stats in transportation studies, urban design, and network science, including intersection density, circuity, average node degree (connectedness), betweenness centrality, and much more. Read more about the :ref:`stats <osmnx-stats-module>` module in the User Reference.
 
