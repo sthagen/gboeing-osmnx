@@ -28,7 +28,7 @@ dependencies = [
   "networkx>=2.5",
   "numpy>=1.24",
   "pandas>=1.5",
-  "requests>=2.27",
+  "requests>=2.30",
   "shapely>=2.0",
 ]
 description = "Download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap"
